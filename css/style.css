@@ -1,0 +1,51 @@
+body {
+    background-color: beige;
+}
+
+.outer-container {
+    height: 400px;
+    width: 600px;
+    border: 1px solid #333;
+}
+
+.inner-container {
+    height: 100px;
+    border: 1px solid #333;
+    background-color: tomato;
+}
+
+
+/* 
+    Fixed units 
+    - Doesnt have a reference point, meaning 500px is alwase the same regardless of parent or window size    
+*/
+.width-px {
+    width: 100px;
+}
+
+.width-pt {
+    width: 100pt;
+}
+
+.width-pc {
+    width: 50pc;
+}
+
+
+/* 
+    Relative units 
+    - Grows/shrink according to its reference point. beigh either the parent container/window/font-size.   
+*/
+
+.width-procent {
+    width: 50%;
+}
+
+.width-vw {
+    width: 50vw;
+}
+
+.width-em {
+    font-size: 16px; /* default */
+    width: 10em;
+}
